@@ -1,0 +1,388 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*-------------------*/
+
+
+
+body {
+	
+
+background: #e85938;
+
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 80%;
+  	min-width: 20%;
+  	flex: 50%;
+  	letter-spacing: 2px;
+  	padding-right: 5%;
+  	padding-top: 5%;
+  	padding-left: 5%;
+  	padding-bottom: 5%;
+}
+
+
+
+.box1 {
+    width: 20vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    
+}
+
+
+.box2 {
+    width: 20vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+    top: -5vh;
+    left: 35vw;
+    
+}
+
+
+.box3 {
+    width: 20vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+    top: -30vh;
+    left: 55vw;
+    
+}
+
+
+.box4 {
+    width: 20vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+    top: 15vh;
+    left: -35vw;
+    
+}
+
+
+.box5 {
+    width: 20vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+    top: -3vh;
+    left: -10vw;
+    
+}
+
+
+
+#div1 {
+	position: absolute;
+	top: 100px
+	left: 0px;
+	z-index: 0;
+}
+
+
+#div2 {
+	position: absolute;
+	top: 20px
+	left: 30px;
+	z-index: 10;
+}
+
+
+#arch1 {
+  background-color: #e85938;
+  width: 200px;
+  height: 380px;
+  border-radius: 50%;
+  box-shadow: 0 -40px 0 20px #000;
+  position: relative;
+  animation-name: anima;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+              
+}
+
+
+@keyframes anima {
+  0%   {width: 200px;}
+  25%  {width: 400px;}
+  50%  {width: 100px;}
+  100% {width: 200px;}
+}
+
+
+
+
+#arch2 {
+  background-color: #e85938;
+  width: 200px;
+  height: 380px;
+  border-radius: 0%;
+  box-shadow: 0 -40px 0 40px #000;
+  position: relative;
+  animation-name: animb;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+              
+}
+
+@keyframes animb {
+  0%   {height: 380px;}
+  50%  {height: 50px;}
+  100% {height: 380px;}
+}
+
+
+
+
+#rectangle {
+    width: 200px;
+    height: 20px;
+    background: #000;
+    top: 100px;
+    position: relative;
+     animation-name: animc;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes animc {
+  0%   {width: 200px;}
+  25%  {width: 50px;}
+  50%  {width: 400px;}
+  100% {width: 200px;}
+}
+
+
+
+
+
+#rectangle2 {
+    width: 200px;
+    height: 20px;
+    background: #000;
+    top: 100px;
+    right: 100px;
+    position: relative;
+  animation-name: animd;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes animd {
+  0%   {width: 200; height: 20px;}
+  50%  {width: 150px; height: 150px;}
+  100% {width: 200; height: 20px;}
+}
+
+
+ 
+
+
+   #triangle-big {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 300px solid #000;
+	top: 0px:
+	left: 0px;
+	position:relative;
+
+
+}
+
+
+
+
+   #triangle-small {
+	width: 0;
+	height: 50px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 170px solid #e85938;
+	position:relative;
+	top: 100px;
+	right: 50px;
+}
+	
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+.circle {
+  height: 250px;
+  width: 250px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-bottom: 200px;
+  animation-name: anime;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes anime {
+  0%   {border-radius: 50%;}
+  50%  {border-radius: 0%;}
+  100% {border-radius: 50%;}
+}
+
+
+.circle-hole {
+  height: 190px;
+  width: 190px;
+  background-color: #e85938;
+  border-radius: 50%;
+  left: 32px;
+  bottom: 220px;
+  position: relative;
+  
+}
+
+
+#rectangle3 {
+    width: 40px;
+    height: 250px;
+    background: #000;
+    left: 240px;
+    position: relative;}
+
+
+
+    .circle2 {
+  height: 250px;
+  width: 200px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-bottom: 200px;
+  left: 50px;
+  position: relative;
+   animation-name: animf;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes animf {
+  0%   {height: 250px}
+  50%  {height: 400px}
+  100% {height: 250px}
+}
+
+.circle-hole2 {
+  height: 220px;
+  width: 150px;
+  background-color: #e85938;
+  border-radius: 50%;
+  left: 25px;
+  top:100px;
+  position: relative;
+  
+}
+
+.circle-hole3 {
+  height: 40px;
+  width: 100px;
+  background-color: #e85938;
+  border-radius: 50%;
+  left: 50px;
+  top:60px;
+  position: relative;
+  animation-name: animg;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  
+}
+
+@keyframes animg {
+  0%   {height: 40px;}
+  50%  {height: 5px;}
+  100% {height: 40px;}
+}
+
+
+
+#rectangle4 {
+    width: 200px;
+    height: 300px;
+    background: #000;
+    left: 240px;
+    position: relative;}
+
+
+
+
+
+
+ 
+
+h1{
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 72px;
+	margin-bottom: 50px;
+	line-height: 92px;
+}
+
